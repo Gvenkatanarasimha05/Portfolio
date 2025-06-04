@@ -21,26 +21,6 @@ export const projectsData: Project[] = [
     liveUrl: 'https://gvenkatanarasimha05.github.io/Spotify-Clone/',
     codeUrl: '#',
   },
-  {
-    id: 3,
-    title: 'Restaurant Branding',
-    description: 'Complete brand identity for a high-end restaurant, including logo, menu design, and web presence.',
-    imageUrl: 'https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'branding',
-    technologies: ['Photoshop', 'Illustrator', 'Figma'],
-    liveUrl: '#',
-    codeUrl: null,
-  },
  
-  {
-    id:4,
-    title: 'Travel Companion App',
-    description: 'Mobile application for travelers with itinerary planning, location recommendations, and offline maps.',
-    imageUrl: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'mobile',
-    technologies: ['Flutter', 'Google Maps API', 'Firebase'],
-    liveUrl: '#',
-    codeUrl: '#',
-  },
   
 ];
