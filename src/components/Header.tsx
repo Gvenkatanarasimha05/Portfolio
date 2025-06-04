@@ -30,20 +30,21 @@ export const Header: React.FC = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
-          {navLinks.map((link) => (
-            <AnimatedLink key={link.name} href={link.href}>
-              {link.name}
-            </AnimatedLink>
-          ))}
-          <a 
-            href="#resume" 
-            className="px-5 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-all duration-300 flex items-center gap-2"
-          >
-            Resume <ExternalLink size={14} />
-          </a>
-        </nav>
-
+       <nav className="hidden md:flex items-center space-x-8">
+  {navLinks.map((link) => (
+    <AnimatedLink key={link.name} href={link.href}>
+      {link.name}
+    </AnimatedLink>
+  ))}
+  <a 
+    href="https://drive.google.com/file/d/1lOnjClMvDZu5xqBhJu9ZycOu9o1pEE7j/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-5 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-all duration-300 flex items-center gap-2"
+  >
+    Resume <ExternalLink size={14} />
+  </a>
+</nav>
         {/* Mobile Menu Button */}
         <button 
           className="md:hidden text-neutral-900 focus:outline-none"
