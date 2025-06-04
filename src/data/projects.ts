@@ -7,7 +7,7 @@ export const projectsData: Project[] = [
     description: 'A full-featured app that will help to track the user activation time towards fitness and help to do workouts.',
     imageUrl: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'web',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    technologies: ['React', 'Node.js', 'MongoDB'],
     liveUrl: '#',
     codeUrl: '#',
   },
