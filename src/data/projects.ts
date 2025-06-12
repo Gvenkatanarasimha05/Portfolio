@@ -21,6 +21,18 @@ export const projectsData: Project[] = [
     liveUrl: 'https://gvenkatanarasimha05.github.io/Spotify-Clone/',
     codeUrl: '#',
   },
- 
+
+
+  {
+  id: 3,
+  title: 'Plant Disease Detection',
+  description: 'A deep learning-based web app for detecting plant leaf diseases using image classification. Helps farmers ensure early diagnosis and sustainable agriculture.',
+  imageUrl: 'https://www.growag.com/storage/1335/conversions/Go-Micro-testing-crop-1185x680.jpeg',
+  category: 'web',
+  technologies: ['Streamlit', 'TensorFlow'],
+  liveUrl: 'https://plant-disease-detection-for-sustainable-agriculture.streamlit.app/',
+  codeUrl: 'https://github.com/Gvenkatanarasimha05/Plant-disease-detection-system-for-sustainable-agriculture',
+}
+
   
 ];
